@@ -15,6 +15,8 @@
 		A2037113214217910066C03E /* Self_SizingTableViewCellsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2037112214217910066C03E /* Self_SizingTableViewCellsSampleTests.swift */; };
 		A203711E214217920066C03E /* Self_SizingTableViewCellsSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A203711D214217920066C03E /* Self_SizingTableViewCellsSampleUITests.swift */; };
 		A203712C21421ADE0066C03E /* TSTableViewEmptyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A203712B21421ADE0066C03E /* TSTableViewEmptyCell.swift */; };
+		A2037132214270FB0066C03E /* TSTableViewBasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2037131214270FB0066C03E /* TSTableViewBasicCell.swift */; };
+		A20371342142889A0066C03E /* TSTableViewTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20371332142889A0066C03E /* TSTableViewTextViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A203711D214217920066C03E /* Self_SizingTableViewCellsSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self_SizingTableViewCellsSampleUITests.swift; sourceTree = "<group>"; };
 		A203711F214217920066C03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A203712B21421ADE0066C03E /* TSTableViewEmptyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSTableViewEmptyCell.swift; sourceTree = "<group>"; };
+		A2037131214270FB0066C03E /* TSTableViewBasicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSTableViewBasicCell.swift; sourceTree = "<group>"; };
+		A20371332142889A0066C03E /* TSTableViewTextViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSTableViewTextViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				A20370FD214217900066C03E /* AppDelegate.swift */,
 				A20370FF214217900066C03E /* ViewController.swift */,
 				A203712B21421ADE0066C03E /* TSTableViewEmptyCell.swift */,
+				A2037131214270FB0066C03E /* TSTableViewBasicCell.swift */,
+				A20371332142889A0066C03E /* TSTableViewTextViewCell.swift */,
 				A2037101214217900066C03E /* Main.storyboard */,
 				A2037104214217910066C03E /* Assets.xcassets */,
 				A2037106214217910066C03E /* LaunchScreen.storyboard */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2037100214217900066C03E /* ViewController.swift in Sources */,
+				A20371342142889A0066C03E /* TSTableViewTextViewCell.swift in Sources */,
+				A2037132214270FB0066C03E /* TSTableViewBasicCell.swift in Sources */,
 				A20370FE214217900066C03E /* AppDelegate.swift in Sources */,
 				A203712C21421ADE0066C03E /* TSTableViewEmptyCell.swift in Sources */,
 			);
