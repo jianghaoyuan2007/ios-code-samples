@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C6D82112143B71100F29368 /* TSTableViewTwoLabelsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D82102143B71100F29368 /* TSTableViewTwoLabelsCell.swift */; };
 		A20370FE214217900066C03E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20370FD214217900066C03E /* AppDelegate.swift */; };
 		A2037100214217900066C03E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20370FF214217900066C03E /* ViewController.swift */; };
 		A2037103214217900066C03E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2037101214217900066C03E /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C6D82102143B71100F29368 /* TSTableViewTwoLabelsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSTableViewTwoLabelsCell.swift; sourceTree = "<group>"; };
 		A20370FA214217900066C03E /* Self-SizingTableViewCellsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Self-SizingTableViewCellsSample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20370FD214217900066C03E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A20370FF214217900066C03E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				A203712B21421ADE0066C03E /* TSTableViewEmptyCell.swift */,
 				A2037131214270FB0066C03E /* TSTableViewBasicCell.swift */,
 				A20371332142889A0066C03E /* TSTableViewTextViewCell.swift */,
+				2C6D82102143B71100F29368 /* TSTableViewTwoLabelsCell.swift */,
 				A2037101214217900066C03E /* Main.storyboard */,
 				A2037104214217910066C03E /* Assets.xcassets */,
 				A2037106214217910066C03E /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6D82112143B71100F29368 /* TSTableViewTwoLabelsCell.swift in Sources */,
 				A2037100214217900066C03E /* ViewController.swift in Sources */,
 				A20371342142889A0066C03E /* TSTableViewTextViewCell.swift in Sources */,
 				A2037132214270FB0066C03E /* TSTableViewBasicCell.swift in Sources */,
@@ -375,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -429,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
