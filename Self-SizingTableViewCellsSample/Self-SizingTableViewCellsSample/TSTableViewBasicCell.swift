@@ -17,13 +17,10 @@ class TSTableViewBasicCell: UITableViewCell {
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: .value1, reuseIdentifier: reuseIdentifier)
-        
-        self.contentView.backgroundColor = .yellow
 
         self.titleLabel.translatesAutoresizingMaskIntoConstraints = false
         self.titleLabel.textColor = .black
         self.titleLabel.font = UIFont.boldSystemFont(ofSize: 14)
-        self.titleLabel.backgroundColor = .red
         self.titleLabel.setContentHuggingPriority(.defaultLow + 1, for: .horizontal)
         self.titleLabel.setContentCompressionResistancePriority(.defaultHigh + 1, for: .horizontal)
         self.contentView.addSubview(self.titleLabel)
@@ -32,7 +29,6 @@ class TSTableViewBasicCell: UITableViewCell {
         self.valueLabel.textAlignment = .right
         self.valueLabel.font = UIFont.systemFont(ofSize: 14)
         self.valueLabel.textColor = .black
-        self.valueLabel.backgroundColor = .green
         self.contentView.addSubview(self.valueLabel)
         
         let marginsGuide = self.contentView.layoutMarginsGuide

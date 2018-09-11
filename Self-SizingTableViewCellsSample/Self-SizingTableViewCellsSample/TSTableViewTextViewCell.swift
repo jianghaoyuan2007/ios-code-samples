@@ -46,14 +46,6 @@ class TSTableViewTextViewCell: UITableViewCell {
 
 extension TSTableViewTextViewCell {
     
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-        print("SELECTED = \(selected)")
-    }
-}
-
-extension TSTableViewTextViewCell {
-    
     @objc func configure(title: String, textView: UITextView) {
         
         self.titleLabel.text = title
@@ -69,8 +61,6 @@ extension TSTableViewTextViewCell {
         
         self.textView = textView
         textView.delegate = self
-        textView.backgroundColor = .green
-        self.contentView.backgroundColor = .yellow
         textView.translatesAutoresizingMaskIntoConstraints = false
         self.contentView.addSubview(textView)
 
