@@ -58,6 +58,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+
+        
         self.view.addSubview(self.tableView)
         
         let marginsGuide = self.view.layoutMarginsGuide
@@ -84,51 +88,20 @@ class ViewController: UIViewController {
             .disposed(by: self.disposeBag)
         
         self.generateSections()
-        
-        UIView.beginAnimations(nil, context: nil)
-        UIView.setAnimationDuration(0.25)
-        UIView.setAnimationCurve(UIViewAnimationCurve.linear)
-        table.contentInset = tableInsets
-        table.scrollIndicatorInsets = scrollIndicatorInsets
-        UIView.commitAnimations()
-
-        
     }
-
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        NotificationCenter.default.addObserver(self,
-                                               selector: #selector(keyboardWillHide),
-                                               name: .UIKeyboardWillHide,
-                                               object: nil)
-        NotificationCenter.default.addObserver(self,
-                                               selector: #selector(keyboardWillShow),
-                                               name: .UIKeyboardWillShow,
-                                               object: nil)
+        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.shouldResignOnTouchOutside = true
     }
-
+    
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
-        NotificationCenter.default.removeObserver(self,
-                                                  name: .UIKeyboardWillHide,
-                                                  object: nil)
-        NotificationCenter.default.removeObserver(self,
-                                                  name: .UIKeyboardWillShow,
-                                                  object: nil)
-    }
-}
-
-extension ViewController {
-    
-    @objc func keyboardWillHide(notification: Notification) {
-        
-    }
-    
-    @objc func keyboardWillShow(notification: Notification) {
-        
+        IQKeyboardManager.shared.enable = false
+        IQKeyboardManager.shared.shouldResignOnTouchOutside = false
     }
 }
 
@@ -182,6 +155,10 @@ extension ViewController {
 
 extension ViewController: UITableViewDelegate {
     
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        self.view.endEditing(true)
+    }
+
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         return UIView.init(frame: CGRect.zero)
     }
