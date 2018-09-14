@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2030F90214B92ED00B78DDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2030F8F214B92ED00B78DDC /* AppDelegate.swift */; };
+		A2030F92214B92ED00B78DDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2030F91214B92ED00B78DDC /* ViewController.swift */; };
+		A2030F95214B92ED00B78DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2030F93214B92ED00B78DDC /* Main.storyboard */; };
+		A2030F97214B92EE00B78DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2030F96214B92EE00B78DDC /* Assets.xcassets */; };
+		A2030F9A214B92EE00B78DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2030F98214B92EE00B78DDC /* LaunchScreen.storyboard */; };
+		A2030FA5214B92EE00B78DDC /* iPhoneXUITabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2030FA4214B92EE00B78DDC /* iPhoneXUITabBarTests.swift */; };
+		A2030FB0214B92EE00B78DDC /* iPhoneXUITabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2030FAF214B92EE00B78DDC /* iPhoneXUITabBarUITests.swift */; };
+		A2030FBE214B932500B78DDC /* TSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2030FBD214B932500B78DDC /* TSTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2030FA1214B92EE00B78DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2030F84214B92ED00B78DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2030F8B214B92ED00B78DDC;
+			remoteInfo = iPhoneXUITabBar;
+		};
+		A2030FAC214B92EE00B78DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2030F84214B92ED00B78DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2030F8B214B92ED00B78DDC;
+			remoteInfo = iPhoneXUITabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2030F8C214B92ED00B78DDC /* iPhoneXUITabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneXUITabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2030F8F214B92ED00B78DDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2030F91214B92ED00B78DDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2030F94214B92ED00B78DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2030F96214B92EE00B78DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2030F99214B92EE00B78DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2030F9B214B92EE00B78DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2030FA0214B92EE00B78DDC /* iPhoneXUITabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneXUITabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2030FA4214B92EE00B78DDC /* iPhoneXUITabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneXUITabBarTests.swift; sourceTree = "<group>"; };
+		A2030FA6214B92EE00B78DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2030FAB214B92EE00B78DDC /* iPhoneXUITabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhoneXUITabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2030FAF214B92EE00B78DDC /* iPhoneXUITabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneXUITabBarUITests.swift; sourceTree = "<group>"; };
+		A2030FB1214B92EF00B78DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2030FBD214B932500B78DDC /* TSTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSTabBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2030F89214B92ED00B78DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2030F9D214B92EE00B78DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2030FA8214B92EE00B78DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2030F83214B92ED00B78DDC = {
+			isa = PBXGroup;
+			children = (
+				A2030F8E214B92ED00B78DDC /* iPhoneXUITabBar */,
+				A2030FA3214B92EE00B78DDC /* iPhoneXUITabBarTests */,
+				A2030FAE214B92EE00B78DDC /* iPhoneXUITabBarUITests */,
+				A2030F8D214B92ED00B78DDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2030F8D214B92ED00B78DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2030F8C214B92ED00B78DDC /* iPhoneXUITabBar.app */,
+				A2030FA0214B92EE00B78DDC /* iPhoneXUITabBarTests.xctest */,
+				A2030FAB214B92EE00B78DDC /* iPhoneXUITabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2030F8E214B92ED00B78DDC /* iPhoneXUITabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A2030F8F214B92ED00B78DDC /* AppDelegate.swift */,
+				A2030F91214B92ED00B78DDC /* ViewController.swift */,
+				A2030FBD214B932500B78DDC /* TSTabBarController.swift */,
+				A2030F93214B92ED00B78DDC /* Main.storyboard */,
+				A2030F96214B92EE00B78DDC /* Assets.xcassets */,
+				A2030F98214B92EE00B78DDC /* LaunchScreen.storyboard */,
+				A2030F9B214B92EE00B78DDC /* Info.plist */,
+			);
+			path = iPhoneXUITabBar;
+			sourceTree = "<group>";
+		};
+		A2030FA3214B92EE00B78DDC /* iPhoneXUITabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2030FA4214B92EE00B78DDC /* iPhoneXUITabBarTests.swift */,
+				A2030FA6214B92EE00B78DDC /* Info.plist */,
+			);
+			path = iPhoneXUITabBarTests;
+			sourceTree = "<group>";
+		};
+		A2030FAE214B92EE00B78DDC /* iPhoneXUITabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2030FAF214B92EE00B78DDC /* iPhoneXUITabBarUITests.swift */,
+				A2030FB1214B92EF00B78DDC /* Info.plist */,
+			);
+			path = iPhoneXUITabBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2030F8B214B92ED00B78DDC /* iPhoneXUITabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2030FB4214B92EF00B78DDC /* Build configuration list for PBXNativeTarget "iPhoneXUITabBar" */;
+			buildPhases = (
+				A2030F88214B92ED00B78DDC /* Sources */,
+				A2030F89214B92ED00B78DDC /* Frameworks */,
+				A2030F8A214B92ED00B78DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneXUITabBar;
+			productName = iPhoneXUITabBar;
+			productReference = A2030F8C214B92ED00B78DDC /* iPhoneXUITabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2030F9F214B92EE00B78DDC /* iPhoneXUITabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2030FB7214B92EF00B78DDC /* Build configuration list for PBXNativeTarget "iPhoneXUITabBarTests" */;
+			buildPhases = (
+				A2030F9C214B92EE00B78DDC /* Sources */,
+				A2030F9D214B92EE00B78DDC /* Frameworks */,
+				A2030F9E214B92EE00B78DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2030FA2214B92EE00B78DDC /* PBXTargetDependency */,
+			);
+			name = iPhoneXUITabBarTests;
+			productName = iPhoneXUITabBarTests;
+			productReference = A2030FA0214B92EE00B78DDC /* iPhoneXUITabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2030FAA214B92EE00B78DDC /* iPhoneXUITabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2030FBA214B92EF00B78DDC /* Build configuration list for PBXNativeTarget "iPhoneXUITabBarUITests" */;
+			buildPhases = (
+				A2030FA7214B92EE00B78DDC /* Sources */,
+				A2030FA8214B92EE00B78DDC /* Frameworks */,
+				A2030FA9214B92EE00B78DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2030FAD214B92EE00B78DDC /* PBXTargetDependency */,
+			);
+			name = iPhoneXUITabBarUITests;
+			productName = iPhoneXUITabBarUITests;
+			productReference = A2030FAB214B92EE00B78DDC /* iPhoneXUITabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2030F84214B92ED00B78DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Stephen Chiang";
+				TargetAttributes = {
+					A2030F8B214B92ED00B78DDC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A2030F9F214B92EE00B78DDC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A2030F8B214B92ED00B78DDC;
+					};
+					A2030FAA214B92EE00B78DDC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A2030F8B214B92ED00B78DDC;
+					};
+				};
+			};
+			buildConfigurationList = A2030F87214B92ED00B78DDC /* Build configuration list for PBXProject "iPhoneXUITabBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2030F83214B92ED00B78DDC;
+			productRefGroup = A2030F8D214B92ED00B78DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2030F8B214B92ED00B78DDC /* iPhoneXUITabBar */,
+				A2030F9F214B92EE00B78DDC /* iPhoneXUITabBarTests */,
+				A2030FAA214B92EE00B78DDC /* iPhoneXUITabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2030F8A214B92ED00B78DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2030F9A214B92EE00B78DDC /* LaunchScreen.storyboard in Resources */,
+				A2030F97214B92EE00B78DDC /* Assets.xcassets in Resources */,
+				A2030F95214B92ED00B78DDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2030F9E214B92EE00B78DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2030FA9214B92EE00B78DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2030F88214B92ED00B78DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2030FBE214B932500B78DDC /* TSTabBarController.swift in Sources */,
+				A2030F92214B92ED00B78DDC /* ViewController.swift in Sources */,
+				A2030F90214B92ED00B78DDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2030F9C214B92EE00B78DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2030FA5214B92EE00B78DDC /* iPhoneXUITabBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2030FA7214B92EE00B78DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2030FB0214B92EE00B78DDC /* iPhoneXUITabBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2030FA2214B92EE00B78DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2030F8B214B92ED00B78DDC /* iPhoneXUITabBar */;
+			targetProxy = A2030FA1214B92EE00B78DDC /* PBXContainerItemProxy */;
+		};
+		A2030FAD214B92EE00B78DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2030F8B214B92ED00B78DDC /* iPhoneXUITabBar */;
+			targetProxy = A2030FAC214B92EE00B78DDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2030F93214B92ED00B78DDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2030F94214B92ED00B78DDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2030F98214B92EE00B78DDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2030F99214B92EE00B78DDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2030FB2214B92EF00B78DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2030FB3214B92EF00B78DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2030FB5214B92EF00B78DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iPhoneXUITabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.stephenchiang.iPhoneXUITabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2030FB6214B92EF00B78DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iPhoneXUITabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.stephenchiang.iPhoneXUITabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2030FB8214B92EF00B78DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iPhoneXUITabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.stephenchiang.iPhoneXUITabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneXUITabBar.app/iPhoneXUITabBar";
+			};
+			name = Debug;
+		};
+		A2030FB9214B92EF00B78DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iPhoneXUITabBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.stephenchiang.iPhoneXUITabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhoneXUITabBar.app/iPhoneXUITabBar";
+			};
+			name = Release;
+		};
+		A2030FBB214B92EF00B78DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iPhoneXUITabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.stephenchiang.iPhoneXUITabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iPhoneXUITabBar;
+			};
+			name = Debug;
+		};
+		A2030FBC214B92EF00B78DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iPhoneXUITabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.stephenchiang.iPhoneXUITabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iPhoneXUITabBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2030F87214B92ED00B78DDC /* Build configuration list for PBXProject "iPhoneXUITabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2030FB2214B92EF00B78DDC /* Debug */,
+				A2030FB3214B92EF00B78DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2030FB4214B92EF00B78DDC /* Build configuration list for PBXNativeTarget "iPhoneXUITabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2030FB5214B92EF00B78DDC /* Debug */,
+				A2030FB6214B92EF00B78DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2030FB7214B92EF00B78DDC /* Build configuration list for PBXNativeTarget "iPhoneXUITabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2030FB8214B92EF00B78DDC /* Debug */,
+				A2030FB9214B92EF00B78DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2030FBA214B92EF00B78DDC /* Build configuration list for PBXNativeTarget "iPhoneXUITabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2030FBB214B92EF00B78DDC /* Debug */,
+				A2030FBC214B92EF00B78DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2030F84214B92ED00B78DDC /* Project object */;
+}
